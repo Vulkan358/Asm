@@ -4,7 +4,6 @@ html {
 }
 
 :root {
-  :root {
   --bg: #0f172a;
   --surface: #121a2e;
   --text: #e5e7eb;
@@ -225,8 +224,4 @@ nav a:hover {
   position: relative;
   z-index: 1; /* grid nằm dưới */
 }
-
-
-
-
 
