@@ -4,12 +4,13 @@ html {
 }
 
 :root {
+  :root {
   --bg: #0f172a;
   --surface: #121a2e;
   --text: #e5e7eb;
   --muted: #94a3b8;
   --primary: #22d3ee;
-  --accent: #a78bfa;
+  --accent: #41ec2a;
 
   --space-1: 0.5rem;
   --space-2: 1rem;
@@ -213,6 +214,18 @@ nav a:hover {
   height: 100%;
   border-radius: 12px;
 }
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* header nằm trên */
+}
+
+.product-grid {
+  position: relative;
+  z-index: 1; /* grid nằm dưới */
+}
+
 
 
 
